@@ -1,0 +1,44 @@
+body {
+  background-color: mediumpurple;
+}
+
+h1 {
+  color: rebeccapurple;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+td img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .merch-images {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .merch-images img {
+            width: 48%;
+        }
+
+ td img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .films-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .films-images img {
+            width: 48%;
+        }
