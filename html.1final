@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olivia Rodrigo</title>
+    <link rel="stylesheet" type="text/css" href="css-wp1.css">
+    <style>
+        td img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .films-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .films-images img {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center">
+        <tr>
+            <td width="800" height="100" colspan="3"> <h1 align="center">OLIVIA RODRIGO</h1> </td>
+        </tr>
+        <tr>
+            <td width="800" height="100"> <h2 align="center">About Olivia Rodrigo</h2></td>
+        </tr>
+        <tr>
+            <td width="800" height="500" colspan="2">
+                <h3 align="center"> 
+                    Olivia is a singer and actress, born the 20 of February, 2003 in California. She started to become famous from a very young age, when she appeared in Disney series such as "Bizaardvark" and "High School Musical: The Musical: The Series". In 2021, she released her first song "Driver License," followed shortly by her debut album "SOUR". In 2023, she released her second album "GUTS," which explored themes of love and adolescence. She toured across Europe and plans to attend a festival in LATAM next year.
+                </h3>
+            </td>
+            <td width="800" height="500">
+                <img src="olivia.jpeg" alt="Olivia Rodrigo">
+            </td>
+        </tr>
+        <tr>
+            <td width="800" height="100" colspan="3"> <h2 align="center">Films she released</h2></td>
+        </tr>
+        <tr>
+            <td width="800" height="200" colspan="3"> 
+                <h3 align="center">Olivia released two films based on her albums. 
+                    "Driving Home 2 U" was released on Disney Plus on March 25, 2022, and features scenes of Olivia and her producer Dan recording songs from "SOUR," as well as music videos for tracks like "Enough for You," "Traitor," and "Good 4 U." "The GUTS World Tour Film" was released on Netflix on October 29, 2024, and includes concert footage without any behind-the-scenes clips.
+                </h3>
+            </td>
+        </tr>
+        <tr>
+            <td width="800" height="500" colspan="3">
+                <div class="films-images">
+                    <img src="drivinghome.jpg" alt="Driving Home 2 U">
+                    <img src="gutsfilm.jpg" alt="The GUTS World Tour Film">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td width="800" height="100" colspan="3"> <h2 align="center"> 
+                <a href="next_page.html">Her merch in Uruguay</a>
+            </h2></td>
+        </tr>
+    </table>
+</body>
+</html>
